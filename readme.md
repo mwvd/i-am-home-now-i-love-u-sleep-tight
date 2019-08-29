@@ -1,14 +1,15 @@
 ![🐝](https://ixi4jeb43ehhpm46.s3.amazonaws.com/OKKmSvFt5M8t2WaH/i-am-home-now-i-love-u-sleep-tight.png "🐝")
 
-<h3 align="center">text your best friend when ur home safe</h3>
+<h3 align="center">a shell script for macOS that automatically opens Messages.app and texts your best friend "i am home now i love u sleep tight" when you open your laptop after you get home after hanging out w them</h3>
 
 ---
 
-
 ### Features
 
-1. Automatically opens Messages.app and texts your best friend "i am home now i love u sleep tight" when you open your laptop after you get home after hanging out w them
-2. Maybe sometimes text your best friend "i'm thinking about u" (5% chance when u open your laptop during the day)
+1. Uses [SleepWatcher ↗](https://www.bernhard-baehr.de/) to run automatically when your computer wakes from sleep during specified hours (_default_ 11pm—4am).
+2. Checks your location (roughly) to make sure you're home (doesn't text your friends when you're not home)
+2. Custom messages and configurable hours
+3. Sometimes messages your best friend "i'm thinking about u" during the day (5% chance when u open your laptop outside of configured hours)
 
 ### Why
 
@@ -63,8 +64,8 @@ _Note_ — If you already have SleepWatcher configured on your computer, just ru
 
 ### Weird stuff
 
-> - Remember to escape weird characters in your messages with `\`
-> - You might have to `chmod` a bunch of shit
+- Remember to escape weird characters in your messages with `\`
+- You might have to `chmod` a bunch of shit
 
 ## Configuration
 
