@@ -81,18 +81,24 @@ m=4
 # what hour (24h) you want this script to stop running (4am here)
 
 # ↑ your message sends if the time right now is >= $n, or > $m
-# In this example this means that if you wake your computer between 11pm-4am after hanging out w them, this script will automatically send them a message letting them know you are home
+# In this example this means that if you wake your computer between 11pm-4am
+# after hanging out w them, this script will automatically send them a message
+# letting them know you are home
 
 
 b="Your Best Friend"
 # the name of your best friend (they need to be in your contacts)
-# idk if this is first names, first name + last name, nickname or what. my best friend is saved as an emoji so at least u know that works too
+# idk if this is first names, first name + last name, nickname or what. my best
+# friend is saved as an emoji so at least u know that works too
 
 message="i am home now i love u sleep tight"
-# message to send ur best friend to let them know you are home safe and sound and that u love them — triggers if time right now is >= $n, or > $m
+# message to send ur best friend to let them know you are home safe and sound
+# and that u love them — triggers if time right now is >= $n, or > $m
 
 thinkin="thinking about u :)"
-# message to send your best friend to let them know you are thinking about them — has a 1/20 chance of triggering when your computer wakes _outside_ of your $n & $m hours.
+# message to send your best friend to let them know you are thinking about them
+# the command to send this message  has a 1/20 chance of triggering when your
+# computer wakes _outside_ of your $n & $m hours. don't bother ur friends.
 ```
 
 ## Uninstall
