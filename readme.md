@@ -1,5 +1,10 @@
 ![🐝](https://ixi4jeb43ehhpm46.s3.amazonaws.com/OKKmSvFt5M8t2WaH/i-am-home-now-i-love-u-sleep-tight.png "🐝")
 
+<h3 align="center">text your best friend when ur home safe</h3>
+
+---
+
+
 ### Features
 
 1. Automatically open Messages.app and text your best friend "i am home now i love u sleep tight" when you open your laptop after you get home after hanging out w them
