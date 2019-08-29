@@ -120,3 +120,14 @@ restart and then do a fresh OS install just to be safe
 - Don't use this as a substitute for being safe. When your friends ask you to text them when you get home safe, they really just want to know that you're safe. This app doesn't prove you're safe it just proves that you can install and run LaunchDaemons
 
 - text ur friends lol. they love u
+
+---
+
+<details><summary>To Do</summary>
+<p>
+
+- [ ] set a timeout
+- [ ] remember to text my friends lol :(
+
+</p>
+</details>
