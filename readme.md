@@ -1,5 +1,3 @@
-<h1 align="center">i am home now i love u sleep tight</h1>
-
 ![🐝](https://ixi4jeb43ehhpm46.s3.amazonaws.com/OKKmSvFt5M8t2WaH/i-am-home-now-i-love-u-sleep-tight.png "🐝")
 
 ### Features
@@ -97,15 +95,15 @@ thinkin="thinking about u :)"
 ```shell
 $ unlink /path/to/i-am-home-now-i-love-u-sleep-tight.plist
 $ unlink ~/Library/LaunchAgents/com.oschrenk.sleepwatcher.plist # just to be safe
-$ brew uninstall sleepwatchers
 $ launchctl unload ~/Library/LaunchAgents/com.oschrenk.sleepwatcher.plist
+$ brew uninstall sleepwatchers
 ```
 
 restart and then do a fresh OS install just to be safe
 
 ## Notes
 
-- macOS only rn - sorry :(
+- macOS only - sorry :(
 - You can disable the randomized "thinking about u" messages by removing the `elif` statement in `_i-am-home-now-i-love-u-sleep-tight.sh`
 - This uses iMessage. I'm sure you could get it working p easily w Twilio or something if you wanted to
 - Don't use this as a substitute for being safe. When your friends ask you to text them when you get home safe, they really just want to know that you're safe. This app doesn't prove you're safe it just proves that you can install and run LaunchDaemons
