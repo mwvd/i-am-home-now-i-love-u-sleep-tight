@@ -7,7 +7,7 @@
 
 ### Features
 
-1. Automatically open Messages.app and text your best friend "i am home now i love u sleep tight" when you open your laptop after you get home after hanging out w them
+1. Automatically opens Messages.app and texts your best friend "i am home now i love u sleep tight" when you open your laptop after you get home after hanging out w them
 2. Maybe sometimes text your best friend "i'm thinking about u" (5% chance when u open your laptop during the day)
 
 ### Why
