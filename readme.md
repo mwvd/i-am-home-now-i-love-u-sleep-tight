@@ -77,11 +77,11 @@ home="City"
 
 
 n=23
-# what hour (24h) you want this script to run (11pm here)
+# what hour (24h) you want this script to start running (11pm here)
 m=4
 # what hour (24h) you want this script to stop running (4am here)
 
-# ↑ your message sends if the time right now is <= $n, or > $m
+# ↑ your message sends if the time right now is >= $n, or < $m
 # In this example this means that if you wake your computer between 11pm-4am
 # after hanging out w them, this script will automatically send them a message
 # letting them know you are home
