@@ -17,7 +17,7 @@ my friends always ask me to do this and i always forget. i love them a lot
 
 ## Installation
 
-> ⚠️ don't install this if you don't know what you're doing!!!! shell commands are pretty serious apparantly and can do some wonky ass shit to ur computer !!!! i texted my best friend w this 50+ times by accident while i was making this and it was just because i didn't the volume on my computer turned up !!!!!! ⚠️
+> ⚠️ don't install this if you don't know what you're doing!!!! shell commands are pretty serious apparantly and can do some wonky ass shit to ur computer !!!! i texted my best friend w this 50+ times by accident while i was making this and it was just because i didn't have the volume on my computer turned up !!!!!! ⚠️
 
 <details><summary style="margin-left:26px">Install SleepWatcher</summary>
 <p>
