@@ -8,8 +8,8 @@
 
 1. Uses [SleepWatcher ↗](https://www.bernhard-baehr.de/) to run automatically when your computer wakes from sleep during specified hours (_default_ 11pm—4am).
 2. Checks your location (roughly) to make sure you're home (doesn't text your friends when you're not home)
-2. Custom messages and configurable hours
-3. Sometimes messages your best friend "i'm thinking about u" during the day (5% chance when u open your laptop outside of configured hours)
+3. Custom messages and configurable hours
+4. Sometimes messages your best friend "i'm thinking about u" during the day (5% chance when u open your laptop outside of configured hours)
 
 ### Why
 
@@ -53,12 +53,12 @@ _Note_ — If you already have SleepWatcher configured on your computer, just ru
 4. [Config 🔗](#Configuration)
 5. In `i-am-home-now-i-love-u-sleep-tight.plist`, change the path on line 11 to where you have saved `i-am-home-now-i-love-u-sleep-tight.sh`
 6. Symlink our prop file to SleepWatcher's
-   ```
+   ```bash
    ln -sfv /path/to/i-am-home-now-i-love-u-sleep-tight.plist ~/Library/LaunchAgents/com.oschrenk.sleepwatcher.plist
    ```
 7. Load SleepWatcher `fuck a restart`
 
-   ```
+   ```bash
    launchctl load ~/Library/LaunchAgents/com.oschrenk.sleepwatcher.plist
    ```
 
@@ -71,7 +71,7 @@ _Note_ — If you already have SleepWatcher configured on your computer, just ru
 
 There are several options to configure inside `i-am-home-now-i-love-u-sleep-tight.sh` ⤵
 
-```shell
+```bash
 home="City"
 # your home. check by running `$ curl https://ipinfo.io/city -s` when ur at home
 
@@ -104,7 +104,7 @@ thinkin="thinking about u :)"
 
 ## Uninstall
 
-```shell
+```bash
 $ unlink /path/to/i-am-home-now-i-love-u-sleep-tight.plist
 $ unlink ~/Library/LaunchAgents/com.oschrenk.sleepwatcher.plist # just to be safe
 $ launchctl unload ~/Library/LaunchAgents/com.oschrenk.sleepwatcher.plist
